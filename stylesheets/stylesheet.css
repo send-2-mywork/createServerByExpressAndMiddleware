@@ -770,6 +770,22 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+/* Navigation Style */
+.navigation ul {
+  margin: 40px 0 0;
+  padding: 0;
+}
+.navigation li.menu-items {
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-items > a {
+  border: 1px solid #9ddcff;
+  color: #9ddcff;
+  padding: 2px 15px;
+  text-transform: uppercase;
+}
+
 /* #Media Queries
 ================================================== */
 
